@@ -1,0 +1,36 @@
+.background    { background-image: url("spiral.gif");
+				 background-size: 30%;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          {background-image: url("fireball.png");
+				background-size: 25px 25px; }
+.wall          { background: rgb(160,82,45);}
+.walol 		   { background: brown; }
+.fakewall      { background: rgb(160,82,45); }
+.bee 		   {background: brown;}
+.sign		   {background-image: url("sign.png"); 
+				background-size: 22px 30px; }
+.test          {background: rgb(215, 110, 110) }
+.demonwizard   {background-image: url("Demonwizard.png"); 
+				background-size: 40px 40px; }
+
+.actor  { position: absolute;  }
+.coin   { background: rgb(4, 229, 229); }
+.fakecoin { background: rgb( 4, 229, 229); }
+.powerup { background: brown; }
+.player { background: rgb(71, 61, 139); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(150, 160, 140);
+}
+.won .player {
+  box-shadow: -8px -9px 8px gold, 8px -9px 8px gold;
+}
